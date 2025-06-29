@@ -1,0 +1,17 @@
+# Cria virtualenv
+python3 -m venv markov-env
+
+# Ativa
+source markov-env/bin/activate
+
+# Atualiza pip
+pip install --upgrade pip
+
+# Instala deps
+pip install -r requirements.txt
+
+# Cria estrutura
+python setup_project.py
+
+# Roda
+python run_training.py
