@@ -1,15 +1,25 @@
+# Ambientes virtuais
 markov-env/
+.env/
+
+# Arquivos temporários do Python
 __pycache__/
 *.pyc
-*.ipynb_checkpoints
-.DS_Store
-.env
+*.pyo
+*.pyd
+*.so
+*.egg-info/
 
-.DS_Store
-__pycache__
-*.pyc
+# Arquivos de dados e modelos
 *.pkl
 *.npz
 *.npy
 
-markov-env/
+# Jupyter
+*.ipynb_checkpoints/
+
+# Arquivos do sistema operacional
+.DS_Store
+
+# Bibliotecas nativas grandes (ex: PyTorch, Arrow)
+*.dylib
