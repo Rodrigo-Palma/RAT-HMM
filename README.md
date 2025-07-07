@@ -30,6 +30,7 @@ ETH	r10d	Transformer	+15.83%	0.81
 
 📁 Estrutura do Repositório
 
+bash
 📦 RAT-HMM/
 ├── data/                   # Dados
 │   ├── analysis/           # Resultados de análise final (ex: model_ranking.csv)
@@ -50,6 +51,7 @@ ETH	r10d	Transformer	+15.83%	0.81
 ├── create_env.txt         # Dependências do projeto (use com `pip install -r`)
 ├── LICENSE
 └── README.md              # Este arquivo
+
 
 🚀 Como Reproduzir os Experimentos
 1. Clonar o Repositório
