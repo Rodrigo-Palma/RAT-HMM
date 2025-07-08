@@ -47,6 +47,8 @@ Consulte `data/results/*.csv` para detalhes completos.
 
 📌 **Figura 2** demonstra graficamente o melhor cenário (GOLD_r15d).
 
+![Figura 2 – Previsão GOLD r15d com RAT-HMM](data/analysis/figura2.png)
+
 ---
 
 ## 📁 Estrutura do Repositório
